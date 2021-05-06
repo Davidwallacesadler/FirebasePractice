@@ -9,4 +9,5 @@ target 'FirebasePractice' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
+  pod 'Firebase/Storage'
 end

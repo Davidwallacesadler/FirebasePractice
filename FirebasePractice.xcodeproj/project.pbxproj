@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		9033FE7C263BAC5D00FA6055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9033FE7B263BAC5D00FA6055 /* Assets.xcassets */; };
 		9033FE7F263BAC5D00FA6055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033FE7D263BAC5D00FA6055 /* LaunchScreen.storyboard */; };
 		9033FE88263BDBB300FA6055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9033FE87263BDBB300FA6055 /* GoogleService-Info.plist */; };
+		9033FEB026411FCD00FA6055 /* WorkoutWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033FEAF26411FCD00FA6055 /* WorkoutWeek.swift */; };
+		9033FEB52641214900FA6055 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033FEB42641214900FA6055 /* Workout.swift */; };
 		E858BE8C807BEF26C9676D25 /* Pods_FirebasePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76BB00866D088C7FCF7DFAF /* Pods_FirebasePractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		9033FE7E263BAC5D00FA6055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9033FE80263BAC5D00FA6055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9033FE87263BDBB300FA6055 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9033FEAF26411FCD00FA6055 /* WorkoutWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWeek.swift; sourceTree = "<group>"; };
+		9033FEB42641214900FA6055 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		C76BB00866D088C7FCF7DFAF /* Pods_FirebasePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebasePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,7 +56,6 @@
 				60C72E9DDBB2F5CEF011328B /* Pods-FirebasePractice.debug.xcconfig */,
 				78AC0FA31BAF62D06A94F7A0 /* Pods-FirebasePractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -94,8 +97,18 @@
 				9033FE80263BAC5D00FA6055 /* Info.plist */,
 				9033FE78263BAC5B00FA6055 /* FirebasePractice.xcdatamodeld */,
 				9033FE87263BDBB300FA6055 /* GoogleService-Info.plist */,
+				9033FEAE26411FA400FA6055 /* Models */,
 			);
 			path = FirebasePractice;
+			sourceTree = "<group>";
+		};
+		9033FEAE26411FA400FA6055 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9033FEAF26411FCD00FA6055 /* WorkoutWeek.swift */,
+				9033FEB42641214900FA6055 /* Workout.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +229,9 @@
 				9033FE74263BAC5B00FA6055 /* ViewController.swift in Sources */,
 				9033FE7A263BAC5B00FA6055 /* FirebasePractice.xcdatamodeld in Sources */,
 				9033FE70263BAC5B00FA6055 /* AppDelegate.swift in Sources */,
+				9033FEB026411FCD00FA6055 /* WorkoutWeek.swift in Sources */,
 				9033FE72263BAC5B00FA6055 /* SceneDelegate.swift in Sources */,
+				9033FEB52641214900FA6055 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
